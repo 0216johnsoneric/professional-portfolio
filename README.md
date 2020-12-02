@@ -15,7 +15,7 @@ or
 Deploy on Heroku using MongoDB Atlas:
 https://pro-portfolio-website.herokuapp.com/
 
-<img src="assets/images/Screen Shot 2020-09-29 at 8.21.04 PM.png"> </img>
+<img src="public/assets/images/Screen Shot 2020-09-29 at 8.21.04 PM.png"> </img>
 
 
 
