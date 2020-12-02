@@ -33,7 +33,7 @@ function effect(card) {
 }
 
 submit.addEventListener('click', function(event){
-    event.preventDefault();
+    // event.preventDefault();
     fetch('/api/email', {
         method: "POST",
         body: JSON.stringify({
