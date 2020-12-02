@@ -1,6 +1,6 @@
 # Professional-Portfolio-Website
 Eric Johnson's personalized Website displays portfolio projects, skills, and other materials:
-* An updated portfolio featuring 3 projects.
+* An updated portfolio featuring 6 projects.
 * An updated GitHub profile with pinned repositories featuring for projects.
 * A updated Resume
 * A updated LinkedIn profile
