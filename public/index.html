@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Eric Johnson</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/bc519c4149.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+   <!-- NAVBAR/SIDEBAR FOR COMPUTER AND MOBILE -->
+    <div class="w3-top">
+        <div class="w3-sidebar" id="myNavbar">
+            <a class="w3-bar-item button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"> <i class="fa fa-bars"></i></a>
+            <br><br>
+            <a href="#home" class="w3-bar-item button w3-hide-small"> <i class="fa fa-home fa-2x"></i>&emsp;</a>
+            <a href="#portfolio" class="w3-bar-item button w3-hide-small"> <i class="fa fa-th fa-2x"></i>&emsp;</a>
+            <a href="#about" class="w3-bar-item button w3-hide-small"> <i class="fa fa-user fa-2x"></i></a>
+            <a href="#contact" class="w3-bar-item button w3-hide-small"> <i class="fa fa-envelope fa-2x"></i></a>
+        </div>
+
+        <div id="mobileNav" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#home" class="w3-bar-item button">HOME</a>
+            <a href="#portfolio" class="w3-bar-item button">PORTFOLIO</a>
+            <a href="#about" class="w3-bar-item button">ABOUT</a>
+            <a href="#contact" class="w3-bar-item button">CONTACT</a>
+        </div>
+    </div>
+
+
+   
+    <!-- Heading with Image -->
+    <div class="bigimg bigimg-1 w3-display-container justify-text-center" id="home">
+        <div class="w3-display-middle title justify-text-center" style="white-space:nowrap;">
+            <span class="w3-center w3-black w3-xlarge w3-wide justify-text-center">
+                <span class="w3-hide-small"> Eric Johnson</span>
+                <br>
+                <span class="w3-hide-small">Software Engineering and Development</span></span>
+        </div>
+    </div>
+
+    
+    <!-- PORTFOLIO SECTION -->
+    <div class="w3-container w3-padding-64" id="portfolio">
+        <div class="section bg1"></div>
+        <h2 class="w3-center"><em>PORTFOLIO</em></h2>
+        <p class="w3-center"><em>My latest projects!</em></p>
+        <br></br>
+
+        <!-- RESPONSIVE PORTFOLIO GRID (Three columns) With links to Github/deployed projects-->
+        <div class="w3-row-padding w3-center w3-section">
+
+            <div class="w3-col m4">
+                <div class="card">
+                    <img class="card__img" src="assets/images/Screen Shot 2020-09-25 at 10.09.02 PM.png" alt="Boxoffice Media">
+                    <h2 class="card__title">Boxoffice Media</h2>
+                    <p class="card__text">Media app that utilizing Foundation Framework and API calls to allow a user to look up Movie and TV Show Data worldwide!</p>
+                    <a class="card__btn" href="https://0216johnsoneric.github.io/Boxoffice-Movies/" target="_blank" class="">Live Demo</a>
+                    <a class="card__btn" href="https://github.com/0216johnsoneric/Boxoffice-Movies" target="_blank" class=""><i class="fa fa-github fa-2x"></i></a>
+                </div>
+            </div>
+        
+
+        <div class="w3-col m4">
+            <div class="card">
+                <img class="card__img" src="assets/images/Screen Shot 2020-09-25 at 10.17.33 PM.png" alt="Javascript Code Quiz">
+                <h2 class="card__title">Javascript Code Quiz</h2>
+                <p class="card__text">Try to beat the clock and compete against friend for the highscore and the chance to be the master of the Javascript Code Quiz!</p>
+                <a class="card__btn" href="https://0216johnsoneric.github.io/Code-Quiz/ " target="_blank" class="">Live Demo</a>
+                <a class="card__btn" href="https://github.com/0216johnsoneric/Code-Quiz" target="_blank" class=""><i class="fa fa-github fa-2x"></i></a>
+            </div>
+        </div>
+
+        <div class="w3-col m4">
+            <div class="card">
+                <img class="card__img" src="assets/images/Screen Shot 2020-09-25 at 10.22.57 PM.png" alt="Weather Dashboard">
+                <h2 class="card__title">Weather Dashboard</h2>
+                <p class="card__text">Dynamic API app that is tasked with retrieving data from OpenWeather API and uses the data to display the current and 5-Day forecast for a locally searched city.</p>
+                <a class="card__btn" href="https://0216johnsoneric.github.io/Weather-Dashboard/" target="_blank" class="">Demo</a>
+                <a class="card__btn" href="https://github.com/0216johnsoneric/Weather-Dashboard" target="_blank" class=""><i class="fa fa-github fa-2x"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+   
+    <!--Tech Skill Icons-->
+    <div class="w3-row w3-center bg1 w3-padding-16">
+        <h2><em>SKILLS</em></h2>
+        <div class="w3-third w3-section">
+            <img class="icon" src="assets/icons/html.svg">
+            <img class="icon" src="assets/icons/css.svg">
+            <img class="icon" src="assets/icons/javascript.svg">
+        </div>
+
+        <div class="w3-third w3-section">
+            <img class="icon" src="assets/icons/jquery.svg">
+            <img class="icon" src="assets/icons/react.svg">
+            <img class="icon" src="assets/icons/node.svg">
+        </div>
+        
+        <div class="w3-third w3-section">
+            <img class="icon" src="assets/icons/mongodb.svg">
+            <img class="icon" src="assets/icons/mysql.svg">
+            <img class="icon" src="assets/icons/github.svg">
+        </div>
+    </div>
+
+   
+    <!-- About Section-->
+    <div class="bigimg bigimg-2 w3-display-container">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">ABOUT</span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h2 class="w3-center"><em>ERIC JOHNSON</em></h2>
+        <div class="w3-row">
+            <div class="u-margin-top-medium">
+                <div class="w3-col m6 w3-center w3-padding-large">
+                    <div class="profile__section-left">
+                        <div class="image-responsive">
+                            <img class="w3-image image-responsive__picture" src="assets/images/Screen Shot 2019-08-20 at 1.12.02 PM.png" alt="My_Photo" width="500" height="300">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="w3-col m6 w3-hide-small w3-center w3-padding-large">
+            <div class="profile__section-right">
+                <div class="text-box">
+                    <div class="text-box__section text-box__section-default">
+                        <h4 class="text-box__section--title">Dependable Development</h4>
+                        <div class="text-box__section--content">
+                            <p>
+                                Software Engineering and Development with extensive experience in Frontend, Backend, and Database Language’s.
+                                Certificate from UConn School of Engineering and Flatiron School in Software Engineering and Development focus on Full
+                                Stack Frameworks to build fully functional applications. Extensive knowledge in Frontend HTML5, CSS, JavaScript, and
+                                Node.js. Proficiency with Backend Languages Ruby on Rails and Python. Databasing skills including MS SQL, MySQL, Active
+                                Record for Ruby, and Django for Python. My technical aptitude in cutting-edge web technologies, combined with adept
+                                problem-solving abilities, attention to detail, and determination, make me a strong addition to any engineering team.
+                            </p>
+                        </div>
+                        <br>
+                        <div class="image-responsive__overlay">
+                            <p class="image-responsive__overlay--set1">
+                                <a class="card__btn" href="https://www.linkedin.com/in/ericjohnson0216/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                <a class="card__btn" href="https://github.com/0216johnsoneric" target="_blank"><i class="fa fa-github"></i></a>
+                                <a class="card__btn" href="https://docs.google.com/document/d/15aS78vK_aTjAhlHvCFlChY97MstSWhTPfDSOAAuxzFg" target="_blank"><i class="fas fa-file-word"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <br></br>
+
+   
+    <!-- Contact Section -->
+    <div class="bigimg bigimg-3 w3-display-container">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+        </div>
+    </div>
+    
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h2 class="w3-center"><em>LOCATION</em></h2>
+        <div class="w3-row w3-padding-32 w3-section">
+            
+            <div class="w3-panel w3-center">
+                <div class="w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Connecticut, USA
+                    <br>
+                    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: (860) 387-5835
+                    <br>
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: ericjohnson0216@icloud.com
+                    <br>
+                </div>
+                <br></br>
+                
+                <form id="contact-form" method="POST" action="#">
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" id ="name" type="text" placeholder="Name" required name="Name">
+                        </div> 
+                        
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" id="email" type="text" placeholder="Email" required name="Email">
+                        </div>
+                        <br></br>
+                        <div class="w3-full">
+                            <textarea class="w3-input w3-border" id="message" type="text" name="message" placeholder="Message" required name="Message"></textarea>
+                        </div>
+
+                    </div>
+                    
+                    <button class="button w3-black w3-center w3-section" id="submit" type="submit"><i class="fa fa-paper-plane"></i> SEND MESSAGE</button>
+                </form>
+            </div>
+           
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64">
+        <div class="w3-xlarge w3-section">
+            <a href="https://github.com/0216johnsoneric" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+            <!-- <a href="#" target="_blank"><i class="fa fa-stack-overflow w3-hover-opacity"></i></a> -->
+            <a href="https://docs.google.com/document/d/15aS78vK_aTjAhlHvCFlChY97MstSWhTPfDSOAAuxzFg" target="_blank"><i class="fas fa-file-word w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/ericjohnson0216/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        </div>
+        <div>Eric Johnson&copy;</div>
+    </footer>
+    
+    <script type="text/javascript" src="script.js"></script>
+
+    </body>
+    
+    </html>
